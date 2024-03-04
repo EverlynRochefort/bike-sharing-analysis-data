@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 
 # Assign variable untuk membaca csv
-combine_df = pd.read_csv("combine_df.csv")
+combine_df = pd.read_csv("/dashboard/combine_df.csv")
 
 # Memberikan title
 st.title('Analysis Data: Bike Sharing')
